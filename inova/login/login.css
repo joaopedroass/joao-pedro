@@ -1,0 +1,89 @@
+body{
+    background-color: #D9D9D9;
+    overflow: hidden;
+}
+
+.inova{
+    width: 350px;
+    height: 350px;
+}
+
+
+.card{
+    margin:0 auto;
+    border-radius: 10px;
+    height: 220px;
+    width: 600px;
+}
+
+.card-body{
+    margin-top: 10px;
+}
+
+.cod{
+    display: inline-flex; 
+    float: right;
+}
+
+.cod2 {
+    display: inline-flex;
+    float: right;
+    margin-left: 0vh;
+}
+
+.inp{
+    border-radius: 10px; 
+    padding: 2px 5px 2px 5px; 
+    width: 100px; 
+    margin-left: 3px;
+    display: inline-flex;
+}
+
+.inp2{
+    border-radius: 10px; 
+    padding: 2px 5px 2px 5px; 
+    width: 100px; 
+    margin-left: 3px;
+    display: inline-flex;
+}
+
+.inp3{
+    border-radius: 10px; 
+    padding: 2px 5px 2px 5px; 
+    width: 100px; 
+    margin-left: 3px;
+    display: inline-flex;
+}
+
+
+
+.botao-centro {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bot {
+    border-radius: 10px;  
+    padding: 5px 10px; 
+    width: 100px; 
+    background-color: #c54f4f;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.select{
+    display: inline-flex;
+    border-radius: 10px; 
+    padding: 2px 5px 2px 5px; 
+    width: 100px; 
+    margin-left: 3px;
+    display: inline-flex;
+}
+
+label{
+    font-size: larger;
+    font-weight: bold;
+}

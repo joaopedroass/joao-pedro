@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row{
+  margin-top: -50px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #D9D9D9;
+}
+
+.navbar-custom {
+  background-color: #CC3434;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.navbar-left .hamburger {
+  background: none;
+  border: none;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-right .search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form input {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px 0 0 3px;
+  outline: none;
+}
+
+.search-form button {
+  padding: 5px 10px;
+  background-color: white;
+  color: #CC3434;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+
+.nav-links {
+  background-color: #7E7E7E;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 50px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #3b3b3b;
+
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2F2828;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.card {
+  margin: 10px; 
+}
+
+
+.card-container {
+  
+    display: flex;
+    align-items: flex-start; 
+    gap: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.lado-esquerdo {
+  background: #e6e5e5;
+  padding: 30px;   
+  border-radius: 5px; 
+  width: 400px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lado-esquerdo img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.lado-direito {
+  margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.card {
+  background-color: #e6e5e5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.titulo {
+  position: absolute;
+  top: 165px;
+  left: 390px;
+}
+
+.titulo h2 {
+  font-size: 24px;
+  color: #3b3b3b;
+  margin: 0 0 20px 0;
+  font-weight: bold;
+  text-decoration: none;
+}
